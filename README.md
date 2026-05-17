@@ -29,12 +29,13 @@ Space variables (Public)说明:
 GENERIC_TIMEZONE=Asia/Shanghai  :时区   
 TZ=Asia/Shanghai   :时区     
 N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true   :重置文件权限   
-WEBHOOK_URL=https://用户名-space名.hf.space/    !!!!!不要漏了最后的反斜杠     
+WEBHOOK_URL=https://用户名-space名.hf.space/    !!!!!不要漏了最后的反斜杠 
+NODES_EXCLUDE=[]
 
 Space secrets(Private)说明:   
 N8N_ENCRYPTION_KEY:  加密密钥【需要保存，如不保存以后重置数据无法恢复】   
 RCLONE_CONF:rclone配置内容，可选，用来同步数据  
-RCLONE_FOLER=onedrive:/n8n   rclone网盘路径
+RCLONE_FOLDER=onedrive:/n8n   rclone网盘路径
 ADMIN_PASSWORD:Code Server登陆密码    
 
 同步配置目录命令   
